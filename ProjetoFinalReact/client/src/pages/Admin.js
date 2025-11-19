@@ -25,11 +25,11 @@ function Admin() {
               setListOfUsers(response.data);
               console.log("Estado atualizado - listOfUsers:", response.data);
           } else {
-              setError("Você não está autenticado.");
+              setError("Não estás autenticado.");
           }
       } catch (error) {
-          console.error('Erro ao buscar usuários:', error);
-          setError("Erro ao buscar usuários. Verifique suas permissões.");
+          console.error('Erro ao buscar users:', error);
+          setError("Erro ao procurar users. Verifique as suas permissões.");
       }
   };
  
