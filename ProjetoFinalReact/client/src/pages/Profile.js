@@ -18,11 +18,11 @@ function Profile() {
 
     return (
         <div className="profileContainer">
-            <h1>Perfil do Usuário</h1>
+            <h1>Perfil do Utilizador</h1>
 
             
             <div className="userInfo">
-                <p><strong>Nome de Usuário:</strong> {username}</p>
+                <p><strong>Nome de Utilizador:</strong> {username}</p>
                 <p><strong>Role:</strong> {userRole}</p>
             </div>
 

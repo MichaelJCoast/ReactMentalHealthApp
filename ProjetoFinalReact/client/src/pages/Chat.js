@@ -28,7 +28,7 @@ const Chat = () => {
         });
         setUsers(response.data); 
       } catch (error) {
-        console.error("Erro ao carregar usuários:", error);
+        console.error("Erro ao carregar users:", error);
       }
     };
 
